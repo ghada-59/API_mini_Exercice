@@ -37,3 +37,7 @@ A short project that demonstrates working with public web APIs (NASA), JSON hand
   - (optional) Google Colab for running the notebook online
 
 Example pip install:
+
+## 🔐 API key setup
+
+The notebook reads the NASA credential from the `NASA_API_KEY` environment variable and falls back to NASA's `DEMO_KEY` for basic usage. Do not store a personal API key in the repository.
